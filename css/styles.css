@@ -61,7 +61,45 @@ body {
     clip: rect(0 0 0 0);
   }
 
+.appointment-btn-whitebg {
+  display: block;
+  margin: 0 auto;
+  padding: 12px 20px;
 
+  font-family: var(--primary-font);
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.33;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+
+  background-color: transparent;
+  color: var(--title-color);
+
+  border: solid 1px var(--accent-color);
+  border-radius: 20px;
+ 
+}
+
+.appointment-btn-blackbg {
+  display: block;
+  margin: 0 auto;
+  padding: 12px 20px;
+
+  font-family: var(--primary-font);
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.33;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+
+  background-color: transparent;
+  color: var(--clean-white);
+
+  border: solid 1px var(--accent-color);
+  border-radius: 20px;
+ 
+}
 /*---------------------- MOBILE VER ----------------------*/
 /*---------------------- HEADER ----------------------*/
 
@@ -124,6 +162,38 @@ body {
   display: none;
 }
 
+.hero__about { 
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  
+  color: var(--opacity-description-color);
+
+}
+
+.hero__title {
+  font-family: var(--secondary-font);
+
+  font-size: 48px;
+  line-height: 1.17;
+  letter-spacing: 0.05em;
+
+  color: var(--clean-white);
+}
+
+.hero__description {
+  width: 306px;
+
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: 0.02em;
+
+  color: var(--description-color);
+}
 
 /*---------------------- /HERO ----------------------*/
 
@@ -132,7 +202,52 @@ body {
 .about {
   
 
-  background-color: #FF6C00;
+  /* background-color: #FF6C00; */
+}
+
+.about__img {
+  display: none;
+}
+
+.about__title {
+  
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+
+  color: var(--title-color);
+}
+
+.about__about {
+  font-family: var(--secondary-font);
+  font-size: 28px;
+  line-height: 1.18;
+  letter-spacing: 0.05em;
+
+  color: var(--title-color);
+}
+
+.about__if {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.62;
+
+  letter-spacing: 0.02em;
+
+  color: var(--secondary-par);
+}
+
+.about__team {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.86;
+
+  letter-spacing: 0.02em;
+
+  color: var(--secondary-par);
+
 }
 
 
@@ -141,23 +256,102 @@ body {
 /*---------------------- PRICES ----------------------*/
 
 .prices {
-  background-color: red;
+  background-color: black;
 }
 
+.prices__about {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+
+  color: var(--opacity-description-color);
+
+}
+
+.prices__title {
+  font-family: var(--secondary-font);
+  font-size: 42px;
+  line-height: 1.17;
+  letter-spacing: 0.05em;
+
+  color: var(--clean-white);
+}
+
+.prices__list {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 2.14;
+  letter-spacing: 0.02em;
+
+  color: var(--description-color);
+
+}
 /*---------------------- /PRICES ----------------------*/
 
 /*---------------------- ADVANTAGES ----------------------*/
 
 .advantages {
-  background-color: green;
+  background-color: white;
 }
 
+.advantages__about {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+
+  color: var(--title-color);
+}
+
+.advantages__title {
+  font-family: var(--secondary-font);
+  font-size: 42px;
+  line-height: 1.17;
+  letter-spacing: 0.05em;
+
+  color: var(--title-color);
+}
+
+.advantages__description {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.67;
+
+  letter-spacing: 0.02em;
+
+  color: var(--secondary-par);
+}
+
+.advantages__number {
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 1.38;
+  text-align: center;
+  letter-spacing: 0.05em;
+
+  color: var(--title-color);
+}
+
+.advantages__text {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  text-align: center;
+
+  color: var(--title-color);
+
+}
 /*---------------------- /ADVANTAGES ----------------------*/
 
 /*---------------------- TEAM ----------------------*/
 
 .team {
-  background-color: chartreuse;
+  background-color: teal;
 }
 
 /*---------------------- /TEAM ----------------------*/
