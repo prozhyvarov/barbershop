@@ -40,12 +40,13 @@
         </ul>
         <a class="header__tel" href="">+38 044 111 11 11</a>
         <button class="header__btn appointment-btn">онлайн-запис</button>
-        <button type="button" class="mobile-menu__open-btn">
-          <svg width="40" height="40">
-            <use href="./images/svg/sprite.svg#icon-menu"></use>
+        <button type="button" class="mobile-menu__open-btn" data-menu-open>
+          <svg class="mobile-menu_icon" width="40" height="40">
+            <use href="./images/svg/sprite.svg#icon-burger"></use>
           </svg>
         </button>
       </div>
+
     </header>
     <!---------------------- /HEADER ---------------------->
     <main>
@@ -66,9 +67,53 @@
             Ми експерти у модних чоловічих стрижках. Працюємо швидко, обережно
             та зі смаком.
           </p>
-
           <button type="button" class="flip">Вперед</button>
           <button type="button" class="flip">Назад</button>
+          <div class="mobile-menu is-open" data-menu>
+            <div class="container mobile-menu__container">
+              <button class="mobile-menu__close-btn" data-menu-close>
+                <svg class="mobile-menu__close-icon" width="8" height="8">
+                  <use href="./images/svg/sprite.svg#icon-close"></use>
+                </svg>
+              </button>
+              <ul class="mobile-menu__list list">
+              <li class="mobile-menu__item">
+                <a href="" class="mobile-menu__link">
+                  Про нас
+                </a>
+              </li>
+              <li class="mobile-menu__item">
+                <a href="" class="mobile-menu__link">
+                  Послуги і ціни
+                </a>
+              </li>
+              <li class="mobile-menu__item">
+                <a href="" class="mobile-menu__link">
+                  Майстри
+                </a>
+              </li>
+              <li class="mobile-menu__item">
+                <a href="" class="mobile-menu__link">
+                  Контакти
+                </a>
+              </li>
+              </ul>
+              <a class="mobile-menu__phone" href="tel:380441111111">
+                +38 044 111 11 11
+              </a>
+              <button class="mobile-menu__btn">
+                онлайн-запис
+              </button>
+              <ul class="mobile-menu__social-list list">
+                <li class="mobile-menu__social-item">
+                  <a class="mobile-menu__social-list-link" href="">Instagram</a>
+                </li>
+                <li class="mobile-menu__social-item">
+                  <a class="mobile-menu__social-list-link" href="">Youtube</a>
+                </li>
+              </ul>
+             </div>
+          </div>
         </div>
       </section>
       <!---------------------- /HERO ---------------------->
@@ -511,7 +556,6 @@
                       src="./images/examples/mobile/Rectangle4-mob.jpg"
                       alt="example 4" width="418" height="360">
                 </picture>
-              />
             </li>
           </ul>
         </div>
@@ -595,7 +639,9 @@
         </ul>
         <p class="copyright">&#169; Copyright 2023</p>
       </div>
+
     </footer>
     <!---------------------- /FOOTER ---------------------->
+    <script src="./js/mobile-menu.js"></script>
   </body>
 </html>
